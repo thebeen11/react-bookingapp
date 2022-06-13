@@ -1,0 +1,77 @@
+.reserve {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.418);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reserveContainer{
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+.reserveClose{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.reserveItem{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.reserveSelect{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 8px;
+    gap: 5px;
+    color: gray;
+}
+
+.room{
+    display: flex;
+    flex-direction: column;
+}
+
+.reserveItemInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.reserveTitle{
+    font-weight: 500;
+}
+
+.reserveDescription{
+    font-weight: 300;
+}
+
+.reserveMax{
+    font-size: 12px;
+}
+
+.reservePrice{
+    font-weight: 500;
+}
+
+.reserveBtn{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
